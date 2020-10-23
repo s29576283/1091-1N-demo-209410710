@@ -3,13 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image Gallery</title>
+    <title>Microsoft Clone</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous">
-    <link rel="stylesheet" href="./imgGallery.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -48,12 +54,12 @@
               <a class="dropdown-item" href="../w01-intro-pokemon/index.html">W1 Introduction</a>
               <a class="dropdown-item" href="../w01-intro-pokemon/pokemon.html">W1 Pokemon</a>
               <a class="dropdown-item" href="../w02-blog/blog.html">W2 Blog</a>
-              <a class="dropdown-item" href="./imgGallery.html">W2 ImgGallery</a>
+              <a class="dropdown-item" href="../w02-imgGallery/imgGallery.html">W2 ImgGallery</a>
               <a class="dropdown-item" href="../w03-div/div.html">W3 Div</a>
               <a class="dropdown-item" href="../w03-div-tku60/div_tku60.html">W3 Tku60</a>
               <a class="dropdown-item" href="../w04-div-tku60-js/div_tku60-js.html">W4 Div+Tku60-JS</a>
               <a class="dropdown-item" href="../w05-bootstrap w1/Nav.html">W5 Bootstrap</a>
-              <a class="dropdown-item" href="../w6/index.html">W6 Microsoft Index</a>
+              <a class="dropdown-item" href="./index.html">W6 Microsoft Index</a>
             </div>
           </li>
           <li class="nav-item">
@@ -65,30 +71,85 @@
         </ul>
       </div>
     </nav>
-    <p>Colt/Steele</p>
-    <div id="line3">
-      <img src="./img/img1.jpg" alt="" />
-      <img src="./img/img2.jpg" alt="" />
-      <img src="./img/img3.jpg" alt="" />
-      <img src="./img/img4.jpg" alt="" />
-      <img src="./img/img5.jpg" alt="" />
-      <img src="./img/img6.jpg" alt="" />
-      <img src="./img/img7.jpg" alt="" />
-      <img src="./img/img8.jpg" alt="" />
-      <img src="./img/img9.jpg" alt="" />
+    <div class="container">
+      <div class="main-nav">
+        <img src="./img/logo.png" alt="Microsoft" class="logo" />
+        <ul class="main-menu">
+          <li>
+            <a href="#">Office</a>
+          </li>
+          <li>
+            <a href="#">Windows</a>
+          </li>
+          <li>
+            <a href="#">Surface</a>
+          </li>
+          <li>
+            <a href="#">Xbox</a>
+          </li>
+          <li>
+            <a href="#">Deals</a>
+          </li>
+          <li>
+            <a href="#">Support</a>
+          </li>
+        </ul>
+        <ul class="right-menu">
+          <li>
+            <i class="fas fa-search"></i>
+          </li>
+          <li>
+            <i class="fas fa-shopping-cart"></i>
+          </li>
+        </ul>
+      </div>
+      <header class="showcase">
+        <h2>Surface Deals</h2>
+        <p>Select Surfaces are on sale now - save while supplies last</p>
+        <a href="#" class="btn">
+          Shop Now <i class="fas fa-chevron-right"></i>
+        </a>
+      </header>
+      <section class="home-cards">
+        <div>
+          <img src="./img/card1.png" alt="" />
+          <h3>New Surface Pro 7</h3>
+          <p>
+            See how Katie Sowers,Asst.Coach for the 49ers, uses Surface Pro 7 to
+            put her plans into play.
+          </p>
+          <a href="#">Learn More <i class="fas fa-chevron-right"></i> </a>
+        </div>
+        <div>
+          <img src="./img/card2.png" alt="" />
+          <h3>New Surface Laptop 3</h3>
+          <p>
+            Express yourself powerfully with a thin, light, and elegant design,
+            faster performance, and yp to 11.5 hours battery life.
+          </p>
+          <a href="#">Learn More <i class="fas fa-chevron-right"></i> </a>
+        </div>
+        <div>
+          <img src="./img/card3.png" alt="" />
+          <h3>Save $150 + free comtroller</h3>
+          <p>
+            Buy an Xbox One X console and double your fun with a free select
+            extra controller. Starting at $349.
+          </p>
+          <a href="#">Learn More <i class="fas fa-chevron-right"></i> </a>
+        </div>
+        <div>
+          <img src="./img/card4.png" alt="" />
+          <h3>The new Microsoft Edge</h3>
+          <p>
+            Expect more. World class performance, with more privacy, more
+            productivity, and more value.
+          </p>
+          <a href="#">Learn More <i class="fas fa-chevron-right"></i> </a>
+        </div>
+      </section>
     </div>
-    <hr />
-    <div id="line4">
-      <img src="./img/img1.jpg" alt="" />
-      <img src="./img/img2.jpg" alt="" />
-      <img src="./img/img3.jpg" alt="" />
-      <img src="./img/img4.jpg" alt="" />
-      <img src="./img/img5.jpg" alt="" />
-      <img src="./img/img6.jpg" alt="" />
-      <img src="./img/img7.jpg" alt="" />
-      <img src="./img/img8.jpg" alt="" />
-      <img src="./img/img9.jpg" alt="" />
-    </div>
+    <script src="style.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
