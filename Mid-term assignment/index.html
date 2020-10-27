@@ -9,9 +9,12 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+ <link rel="stylesheet" href="index.css">
     <title>期中作業</title>
   </head>
   <body>
+    <div class="container">
+      <div class="heading">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="./index.html">Mid-term assignment</a>
       <button
@@ -32,39 +35,41 @@
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Tku class demo
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="../w01-intro-pokemon/index.html">W1 Introduction</a>
-              <a class="dropdown-item" href="../w01-intro-pokemon/pokemon.html">W1 Pokemon</a>
-              <a class="dropdown-item" href="../w02-blog/blog.html">W2 Blog</a>
-              <a class="dropdown-item" href="../w02-imgGallery/imgGallery.html">W2 ImgGallery</a>
-              <a class="dropdown-item" href="../w03-div/div.html">W3 Div</a>
-              <a class="dropdown-item" href="../w03-div-tku60/div_tku60.html">W3 Tku60</a>
-              <a class="dropdown-item" href="../w04-div-tku60-js/div_tku60-js.html">W4 Div+Tku60-JS</a>
-              <a class="dropdown-item" href="../w05-bootstrap w1/Nav.html">W5 Bootstrap</a>
-              <a class="dropdown-item" href="../w6/index.html">W6 Microsoft Index</a>
-            </div>
+          <li class="nav-item" onclick="change(0)">
+            <a class="nav-link" href="#">109-1 課表</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./curriculum.html">109-1 課表</a>
+          <li class="nav-item" onclick="change(1)">
+            <a class="nav-link" href="#">W1 Introduction</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+           <li class="nav-item" onclick="change(2)">
+            <a class="nav-link" href="#">W1 Pokemon</a>
+          <li class="nav-item" onclick="change(3)">
+            <a class="nav-link" href="#">W2 Blog</a>
+          </li>
+          <li class="nav-item" onclick="change(4)">
+            <a class="nav-link" href="#">W2 ImgGallery</a>
+          </li>
+          <li class="nav-item" onclick="change(5)">
+            <a class="nav-link" href="#">W4 Div+Tku60-JS</a>
+          </li>
+          <li class="nav-item" onclick="change(6)">
+            <a class="nav-link" href="#">W5 Bootstrap</a>
+          </li>
+          <li class="nav-item" onclick="change(7)">
+            <a class="nav-link" href="#">W6 Microsoft Index</a>
+          </li>
+          <li class="nav-item" onclick="change(8)">
+            <a class="nav-link" href="#">W7 Microsoft Xbox</a>
           </li>
         </ul>
       </div>
     </nav>
+    </div>
+    <section id="show">
+      <iframe></iframe>
+    </section>
+  </div>
+    <script src="index.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
