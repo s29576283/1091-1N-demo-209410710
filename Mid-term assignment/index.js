@@ -38,5 +38,9 @@ function change(index) {
             p.innerHTML =
                 '<iframe width="100%" height="100%" src="../w7-msclone/index.html"/></iframe>';
         break;
+        case 9:
+            p.innerHTML =
+                '<iframe width="100%" height="100%" src="./Resume.html"/></iframe>';
+        break;
     }
 }
