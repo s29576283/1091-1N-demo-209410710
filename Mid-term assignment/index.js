@@ -42,5 +42,9 @@ function change(index) {
             p.innerHTML =
                 '<iframe width="100%" height="100%" src="./Resume.html"/></iframe>';
         break;
+        case 10:
+            p.innerHTML =
+                '<iframe width="100%" height="100%" src="../w08-ms-clone/index.html"/></iframe>';
+        break;
     }
 }
